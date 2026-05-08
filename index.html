@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر ملابس اسطوري</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #000;
+        }
+        
+        #container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        
+        .header h3 {
+            font-size: 18px;
+            color: #666;
+        }
+        
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .service {
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: calc(33.33% - 20px);
+        }
+        
+        .service i {
+            font-size: 24px;
+            color: #333;
+        }
+        
+        .service p {
+            font-size: 16px;
+            color: #666;
+        }
+        
+        .contact {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .contact h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .contact ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .contact ul li {
+            margin-bottom: 10px;
+        }
+        
+        .contact ul li i {
+            font-size: 18px;
+            color: #666;
+            margin-right: 10px;
+        }
+        
+        .contact ul li span {
+            font-size: 16px;
+            color: #666;
+        }
+        
+        .form {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .form input[type="text"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .form input[type="email"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .form input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .form input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+        
+        .sponsor {
+            font-size: 12px;
+            color: #999;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            <h1>متجر ملابس اسطوري</h1>
+            <h3>ملابس فاخرة من جميع الأشكال والأقسام</h3>
+        </div>
+        <div class="services">
+            <div class="service">
+                <i class="fas fa-shopping-bag"></i>
+                <p>ملابس رجالية</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-genderless"></i>
+                <p>ملابس نسائية</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-child"></i>
+                <p>ملابس أطفال</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-globe"></i>
+                <p>ملابس خارجية</p>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>اتصل بنا</h2>
+            <ul>
+                <li><i class="fas fa-phone"></i><span>0100 000 0000</span></li>
+                <li><i class="fas fa-envelope"></i><span>info@metjarm.com</span></li>
+                <li><i class="fas fa-map-marked-alt"></i><span>cairo, مصر</span></li>
+            </ul>
+        </div>
+        <div class="form">
+            <input type="text" id="name" name="name" placeholder="اسمك">
+            <input type="email" id="email" name="email" placeholder="إيميلك">
+            <input type="submit" value="إرسال">
+        </div>
+        <div class="sponsor">
+            <p>بدعم من براندو، رفيق الأعمال الذكي</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script>
+        // JavaScript code here
+    </script>
+</body>
+</html>
